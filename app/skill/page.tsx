@@ -10,10 +10,9 @@ export default function Skill(){
             </div>
             <div className="max-w-7xl mx-auto mt-8">
                 <div className="p-5 mb-8 last:mb-0 border bg-white rounded-md dark:bg-[#272929] dark:text-[#ebf4f1]">
-                <Skills />
+                    <Skills />
                 </div>
             </div>
-            
         </div>
         </>
     )

@@ -9,7 +9,7 @@ interface SkillItem {
     desc: string;
 }
 
-export default function Skill({ e }: { e: SkillItem }){
+export default function Skills(){
 
     const [skillList, setSkillList] = useState<SkillItem[]>([]);
     const [gauge, setGauge] = useState<boolean>(false);

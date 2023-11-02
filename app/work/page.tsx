@@ -1,4 +1,4 @@
-import Workcom from '@/components/works'
+import Works from '@/components/works'
 
 export default function Work(){
     return(
@@ -11,7 +11,7 @@ export default function Work(){
                 <div className="p-5 mb-8 last:mb-0 border bg-white rounded-md dark:bg-[#272929] dark:text-[#ebf4f1]">
                 </div>
             </div>
-            <Workcom />
+            <Works />
             </div>    
         </>
     )

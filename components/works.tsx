@@ -49,7 +49,7 @@ export default function Works(){
                                 <li key={i} onClick={()=>{setIsActive(i); setCateGory(menuType[i])}} className={`${isActive === i ? `bg-pink-300 text-white` : `bg-white text-black`} cursor-pointer mr-4 border dark:bg-[#272929] dark:text-[#ebf4f1]  py-2 px-5 rounded-md`}>{e}</li>
                             )
                         })
-                    }s
+                    }
                 </ul>
                 <div className="mt-8">
                     {
